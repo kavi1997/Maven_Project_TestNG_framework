@@ -27,7 +27,7 @@ public class TestClass {
 	@BeforeMethod
 	public void BeforeMethod() {
 		baseUrl = "http://thawing-shelf-73260.herokuapp.com/";
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ka20090052\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/C:/Users/ka20090052/Downloads/chromedriver_win32/chromedriver.exe");
 		driver = new ChromeDriver();;
 		gm = new GenericMethods(driver);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
